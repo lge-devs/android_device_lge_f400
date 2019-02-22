@@ -64,6 +64,8 @@ WIFI_DRIVER_FW_PATH_P2P := "/vendor/firmware/fw_bcmdhd.bin"
 WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/bcmdhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA := "/vendor/firmware/fw_bcmdhd.bin"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+WIFI_DRIVER_MODULE_ARG           := "iface_name=wlan0"
+WIFI_DRIVER_MODULE_NAME := "bcmdhd"
 
 # inherit from the proprietary version
 -include vendor/lge/f400/BoardConfigVendor.mk
